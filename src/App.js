@@ -8,7 +8,7 @@ import Navigation from "./components/Navigation/Navigation";
 function App() {
 	return (
 		<>
-			<Router>
+			<Router basename="/project">
 				<Navigation />
 				<Switch>
 					<Route path="/" exact component={HomePage} />
