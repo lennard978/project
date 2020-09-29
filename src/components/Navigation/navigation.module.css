@@ -1,32 +1,56 @@
-.navigation > nav{
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100px;
-  width: 100%;
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
+.navigation > nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
 }
-.navigation .logo{
-  color: white;
-  flex-grow: 1;
-  margin-left: 50px;
-  font-family: 'Montserrat-Light';
+.navigation .logo {
+	color: white;
+	flex-grow: 1;
+	margin-left: 50px;
+	font-family: "Montserrat-Light";
 }
-.navigation ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  margin-right: 100px;
+.navigation ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	margin-right: 100px;
 }
-.navigation li{
-  margin-right: 30px;
+.navigation li {
+	margin-right: 30px;
 }
-.navigation a{
-  color: white;
-  text-decoration: none;
+.navigation a {
+	color: white;
+	text-decoration: none;
+}
+@media (max-width: 767px) {
+	.navigation > nav {
+		height: 50px;
+		border-bottom: none;
+	}
+	.navigation .logo {
+		font-size: 15px;
+		text-align: center;
+		margin-left: 0;
+		text-transform: uppercase;
+	}
+	.navigation ul {
+		flex-direction: column;
+		width: 100%;
+		height: 200px;
+		padding-top: 50px;
+		background-color: rgba(162, 163, 163, 0.37);
+		border: 1px solid white;
+		display: none;
+	}
+	.navigation a {
+		font-size: 15px;
+	}
 }

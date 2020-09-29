@@ -6,19 +6,17 @@ import HomePage from "./components/Pages/HomePage/HomePage";
 import Navigation from "./components/Navigation/Navigation";
 
 function App() {
-  return (
-    <>
-      <Router>
-        <div>
-          <Navigation />
-          <Switch>
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/" exact component={HomePage} />
-          </Switch>
-        </div>
-      </Router>
-    </>
-  );
+	return (
+		<>
+			<Router>
+				<Navigation />
+				<Switch>
+					<Route path="/" exact component={HomePage} />
+					<Route path="/contact" exact component={Contact} />
+				</Switch>
+			</Router>
+		</>
+	);
 }
 
 export default App;

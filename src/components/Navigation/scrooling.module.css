@@ -1,19 +1,24 @@
-.scrooling{
-  position: absolute;
-  top: 100px;
-  left: 0;
-  width: 100px;
-  height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+.scrooling {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100px;
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
-.scrooling ul{
-list-style-type: none;
-font-size: 10px;
-margin-bottom: 100px;
+.scrooling ul {
+	list-style-type: none;
+	font-size: 10px;
+	margin-bottom: 100px;
 }
-.scrooling li{
-margin: 40px 0;
+.scrooling li {
+	margin: 40px 0;
+}
+@media (max-width: 767px) {
+	.scrooling {
+		display: none;
+	}
 }
