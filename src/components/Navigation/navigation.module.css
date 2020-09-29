@@ -1,0 +1,32 @@
+.navigation > nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.navigation .logo{
+  color: white;
+  flex-grow: 1;
+  margin-left: 50px;
+  font-family: 'Montserrat-Light';
+}
+.navigation ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 100px;
+}
+.navigation li{
+  margin-right: 30px;
+}
+.navigation a{
+  color: white;
+  text-decoration: none;
+}

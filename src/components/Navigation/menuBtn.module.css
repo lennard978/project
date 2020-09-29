@@ -1,0 +1,9 @@
+.menuBtn{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(150, 146, 146, 0.5);
+  border-left: 1px solid white;
+}

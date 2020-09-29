@@ -1,0 +1,16 @@
+.homepage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../../../images/travel.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.homepage p{
+  color: white;
+  font-family: "Montserrat-Light";
+  font-size: 35px;
+}

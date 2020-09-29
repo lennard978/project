@@ -1,0 +1,29 @@
+.social{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-left: 1px solid white;
+}
+.social ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+  width: 100px;
+  list-style-type: none;
+}
+.social li{
+  margin: 10px 0;
+}
+.social a{
+  color: white;
+  font-size: 25px;
+  
+}
